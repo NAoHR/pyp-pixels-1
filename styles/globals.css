@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --black: #323232;
+  --dark-white : #F8F9FF;
+  --white: #FFFFFF;
+  --orange : #FF9E45;
+  --rorange : #FF6445;
+  --violet : #6445FF;
+  --green : #78C142;
+  --red : #FF4545;
+  --poppins : 'Poppins', sans-serif;
+  --bebas : 'Bebas Neue', cursive;
+  --blue : #92ABE1;
+}
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--dark-white);
 }
 
 a {
@@ -13,4 +29,33 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lovely_transit_page{
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 0px;
+  transition: 1s;
+  background: var(--violet);
+  z-index: 10;
+}
+
+.max_size{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--violet);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.max_text{
+  text-align: center;
+  color: var(--dark-white);
+  font-family: var(--poppins);
+  font-size: 2.2em;
 }

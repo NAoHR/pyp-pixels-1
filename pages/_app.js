@@ -1,7 +1,14 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import TransitionContext from '../utils/Transition_Context';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <TransitionContext>
+        <Component {...pageProps} />
+      </TransitionContext>
+    </>
+  )
 }
 
 export default MyApp
