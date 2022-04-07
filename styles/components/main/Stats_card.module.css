@@ -9,12 +9,9 @@
     width: 300px;
     background-color: var(--white);
     overflow: hidden;
-    border-radius: 8px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-.stats_card:last-child{
-    margin-right: 10px;
 }
 .stats_card_decoration{
     width: 120px;
@@ -30,19 +27,20 @@
 }
 .stats_card_title{
     color: var(--black);
-    font-family: var(--poppins);
-    text-decoration: underline var(--violet);
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 .stats_card_money{
     font-family: var(--poppins);
     color: var(--black);
-    font-weight: 500;
-    font-size: 1.9em;
-    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 5px 0 0 0;
 }
 .stats_card_detail{
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 1.25rem;
     font-family: var(--poppins);
     position: absolute;
     bottom: 20px;
