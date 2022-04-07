@@ -1,7 +1,7 @@
 import style from "../../styles/components/main/Stats_card.module.css";
 import {FaMoneyBillWave} from "react-icons/fa"
 
-const Stats_card = ({title,money,detail,isplus}) => {
+const Stats_card = ({ title, money, detail, income }) => {
     return (
         <span className={style.stats_card_wrapper}>
             <div className={style.stats_card}>
@@ -13,9 +13,9 @@ const Stats_card = ({title,money,detail,isplus}) => {
                     Rp. {String(money).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
                 </h2>
                 <h2 className={`${style.stats_card_detail} ${style.up_index}`} style={{
-                    color : isplus ? "var(--green)" : "var(--red)"
+                    color : income ? "var(--green)" : "var(--red)"
                 }}>
-                    {isplus ? "+" : "-"} Rp. {String(detail).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
+                    {income ? "+" : "-"} Rp. {String(detail).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
                 </h2>
             </div>
         </span>

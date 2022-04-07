@@ -2,13 +2,13 @@ import {useState,useEffect, useRef} from "react";
 import Max_Size from "../components/other/MaxSize";
 
 const IfMax = ({data,Component}) => {
-    const [width,sw] = useState(0)
-    const [height,sh] = useState(0)
-    const [isTrue,sit] = useState(true);
+    const [width, setWidth] = useState(0)
+    const [height, setHeight] = useState(0)
+    const [isTrue, setIsTrue] = useState(true);
 
     const changewh = () =>{
-        sw(window.innerWidth)
-        sh(window.innerHeight)
+        setWidth(window.innerWidth)
+        setHeight(window.innerHeight)
     }
 
     useEffect(()=>{
@@ -17,11 +17,11 @@ const IfMax = ({data,Component}) => {
             changewh()
         }) 
         if(width > 480 || height > 830){
-            sit(true)
+            setIsTrue(true)
         }else{
-            sit(false)
+            setIsTrue(false)
         }
-    },[width,height])
+    },[width, height])
 
     if(isTrue){
         return <Max_Size />

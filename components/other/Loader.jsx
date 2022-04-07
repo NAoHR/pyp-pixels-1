@@ -1,7 +1,8 @@
 import style from "../../styles/components/other/Loader.module.css"
 
-const Loader = ({status}) => {
-    return(
+const Loader = ({ status }) => {
+
+    return (
         <>
         <div className={style.lovely_loader_wrapper} style={{
             height : status && "0vh",

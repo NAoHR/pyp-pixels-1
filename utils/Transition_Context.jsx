@@ -1,17 +1,16 @@
-import {useContext,useState,useEffect, createContext} from "react";
+import { useContext, useState, useEffect, createContext} from "react";
 import { useRouter } from "next/router";
-
 
 export const TransitContext = createContext();
 
 const TransitionContext = (props) => {
-    const [pageToGo, setPTG] = useState(null);
-    const [isReady,setIsReady] = useState(false)
+    const [pageToGo, setPageToGo] = useState(null);
+    const [isReady, setIsReady] = useState(false)
     const router = useRouter();
     
-    function pageTransitHandler(togo){
+    function pageTransitHandler(toGo){
         if(pageToGo === null){
-            setPTG(togo);
+            setPageToGo(toGo);
         }
     }
 
@@ -19,7 +18,7 @@ const TransitionContext = (props) => {
         if(pageToGo !== null){
             setTimeout(async ()=>{
                 await router.push(pageToGo);
-                setPTG(null);
+                setPageToGo(null);
             },1200)
         }
     },[pageToGo])
