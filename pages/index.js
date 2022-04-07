@@ -1,11 +1,12 @@
 import Main_container from "../containers/Main_container"
 import IfMax from "../utils/IfMax";
-import {useEffect,useState} from "react";
+import { useEffect, useState } from "react";
 import Loader from "../components/other/Loader";
-import {apiCaller} from "../utils/apiCaller";
+import { apiCaller } from "../utils/apiCaller";
 
 const Main = () => {
-  const [data,setData] = useState(null);
+  const [data, setData] = useState(null);
+
   useEffect(()=>{
     apiCaller.nytimes()
       .then((val)=>{
