@@ -3,12 +3,15 @@ import style from "../styles/containers/Main.module.css"
 import {MdOutlineWavingHand} from "react-icons/md"
 import Stats_card from "../components/main/Stats_card";
 import News_card from "../components/main/News_card";
+import Error_Handler from "../components/other/Error_Handler";
 
 const NewsCardLooper = ({newsData}) => {
     if(newsData === false){
-        return <p>wew</p>
+        return (
+            <Error_Handler message={"we have some problem here"} title={"oops!"} />
+        )
     }else if(newsData.length == 0){
-        return <p>0</p>
+        return <Error_Handler message={"no data to be displayed"} title={"sorry"} />
     }
     return newsData.map((val,index)=> {
         return <News_card data={val} key={index} />

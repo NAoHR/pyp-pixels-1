@@ -1,0 +1,33 @@
+.error_side{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.errorimage{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.error_text_side{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error_base{
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 500;
+}
+.err_title{
+    text-decoration: underline var(--violet);
+}
+h1.err_message{
+    font-size: 1.8em;
+}
