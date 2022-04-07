@@ -1,10 +1,11 @@
-import {TransitContext} from "./Transition_Context";
+import { TransitContext } from "./Transition_Context";
 import { useContext } from "react";
 
 const CustomLink = (props) => {
-    const {path,color} = props;
+    const {path, color} = props;
     const TransitHandler = useContext(TransitContext);
-    function anchorHandler(e){
+    
+    const anchorHandler = (e) => {
         e.preventDefault();
         return TransitHandler(path);
     }

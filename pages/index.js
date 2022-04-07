@@ -8,7 +8,7 @@ const Main = () => {
   const [data, setData] = useState(null);
 
   useEffect(()=>{
-    apiCaller.nytimes()
+    apiCaller.nyTimes()
       .then((val)=>{
         const valdata = val.data?.response?.docs
         if(valdata === undefined){
