@@ -13,11 +13,21 @@
 }
 .image_side{
     width: 100%;
-    height: 210px;
-    background-color: red;
+    height: 150px;
+    background-color: var(--violet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     position: relative;
 }
+.imagenotfound{
+    font-size: 2.8em;
+    color: var(--white);
+    font-family: var(--bebas);
+    letter-spacing: 10px;
+}
+
 .news_image{
     width: 100%;
     object-fit: contain;
@@ -35,7 +45,7 @@
 }
 .text_title_side{
     width: 100%;
-    min-height: 100px;
+    margin-bottom: 20px;
 }
 .text_title{
     font-family: var(--poppins);
