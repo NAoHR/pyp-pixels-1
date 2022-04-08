@@ -1,6 +1,5 @@
 import Navbar from "../components/other/Navbar";
 import style from "../styles/containers/Main.module.css"
-import { MdOutlineWavingHand } from "react-icons/md"
 import Stats_card from "../components/main/Stats_card";
 import News_card from "../components/main/News_card";
 import Error_Handler from "../components/other/Error_Handler";

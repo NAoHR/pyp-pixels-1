@@ -60,3 +60,6 @@ a {
 .poppins{
   font-family: var(--poppins);
 }
+.black{
+  color: var(--black);
+}
