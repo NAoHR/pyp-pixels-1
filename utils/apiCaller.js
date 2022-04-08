@@ -7,6 +7,5 @@ const apiURL = {
 export const apiCaller = {
     nyTimes : () =>  {
         return axios.get(apiURL.nyTimes);
-        // console.log(axios.get(apiURL.nyTimes))
     }
 }

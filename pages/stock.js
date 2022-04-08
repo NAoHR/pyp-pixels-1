@@ -1,9 +1,10 @@
 import Navbar from "../components/other/Navbar";
+import Stock_container from "../containers/Stock_container";
+import IfMax from "../utils/IfMax";
 const Stock = () => {
     return (
         <>
-            <p>Stock page</p>
-            <Navbar />
+            <IfMax Component={Stock_container}/>
         </>
     )
 }
