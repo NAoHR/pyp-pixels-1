@@ -1,29 +1,30 @@
 .stock_wrapper{
-    padding-bottom: 80px;
+    padding: 0 0 80px 0;
 }
 .me_stock{
-    width: 100%;
     padding: 15px;
-    /* background: green; */
 }
 .me_stock_top_side{
     width: 100%;
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
 }
 
-.top_side_wrapper{
-    height: 100%;
+.me_stock_bottom_side {
     display: flex;
-    padding: 10px 0px 10px 0px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top_side_wrapper{
+    height: 100%;   
+    display: flex;
 }
 
 .me_stock_title{
-    font-size: 1.4em;
-    color: var(--black);
-    text-decoration: underline var(--violet);
-    margin-right: 6px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 20px 3px;
 }
 .ms_right{
     justify-content: center;
