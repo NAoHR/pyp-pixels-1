@@ -1,0 +1,56 @@
+{
+    "userStock" : [
+        {
+            "stock_code" : "SOYA",
+            "stock_co" : "Pt Outdofood Tbk",
+            "stock_price" : 4000,
+            "stock_dp" : 20,
+            "stock_pr" : 2,
+            "cuan" : false
+        },
+        {
+            "stock_code" : "TEST",
+            "stock_co" : "Pt Testing Tbk",
+            "stock_price" : 3000,
+            "stock_dp" : 100,
+            "stock_pr" : 5,
+            "cuan" : true
+        },
+        {
+            "stock_code" : "MARN",
+            "stock_co" : "Pt Marindo Tbk",
+            "stock_price" : 3000,
+            "stock_dp" : 100,
+            "stock_pr" : 5,
+            "cuan" : true
+        }
+    ],
+    "userWL" : [
+        {
+            "stock_code" : "SOYA",
+            "stock_co" : "Pt Outdofood Tbk",
+            "stock_price" : 4000,
+            "stock_dp" : 20,
+            "stock_pr" : 2,
+            "cuan" : false
+        },
+        {
+            "stock_code" : "TEST",
+            "stock_co" : "Pt Testing Tbk",
+            "stock_price" : 3000,
+            "stock_dp" : 100,
+            "stock_pr" : 5,
+            "cuan" : true
+        },
+        {
+            "stock_code" : "MARN",
+            "stock_co" : "Pt Marindo Tbk",
+            "stock_price" : 3000,
+            "stock_dp" : 100,
+            "stock_pr" : 5,
+            "cuan" : true
+        }
+    ],
+    "trending" : [
+    ]
+}

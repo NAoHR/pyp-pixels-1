@@ -63,3 +63,6 @@ a {
 .black{
   color: var(--black);
 }
+.core_wrapper{
+  padding-bottom: 70px;
+}
