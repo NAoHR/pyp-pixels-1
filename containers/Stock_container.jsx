@@ -25,9 +25,9 @@ const Stock_container = () => {
                         </div>
                     </div>
                     <div className={style.me_stock_bottom_side}>
-                        <Stock_card stock_code={"ANJY"} stock_co={"Pt Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
-                        <Stock_card stock_code={"BOTX"} stock_co={"Pt Afiliator Kenz"} stock_price={"0.0008"} stock_dp={900} stock_pr={98} cuan={false}/>
-                        <Stock_card stock_code={"ANJY"} stock_co={"Pt Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
+                        <Stock_card stock_code={"ANJY"} stock_co={"PT. Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
+                        <Stock_card stock_code={"BOTX"} stock_co={"PT. Afiliator Kenz"} stock_price={"0.0008"} stock_dp={900} stock_pr={98} cuan={false}/>
+                        <Stock_card stock_code={"ANJY"} stock_co={"PT. Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
                     </div>
                 </div>
 
@@ -45,10 +45,10 @@ const Stock_container = () => {
                         </div>
                     </div>
                     <div className={style.me_stock_bottom_side}>
-                        <Stock_card stock_code={"ANJY"} stock_co={"Pt Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
-                        <Stock_card stock_code={"BOTX"} stock_co={"Pt Afiliator Kenz"} stock_price={"0.0008"} stock_dp={900} stock_pr={98} cuan={false}/>
-                        <Stock_card stock_code={"ANJY"} stock_co={"Pt Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
-                        <Stock_card stock_code={"ANJY"} stock_co={"Pt Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
+                        <Stock_card stock_code={"ANJY"} stock_co={"PT. Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
+                        <Stock_card stock_code={"BOTX"} stock_co={"PT. Afiliator Kenz"} stock_price={"0.0008"} stock_dp={900} stock_pr={98} cuan={false}/>
+                        <Stock_card stock_code={"ANJY"} stock_co={"PT. Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
+                        <Stock_card stock_code={"ANJY"} stock_co={"PT. Aku kamu Tbk"} stock_price={"69.420"} stock_dp={400} stock_pr={15} cuan={true}/>
                     </div>
                 </div>
                 

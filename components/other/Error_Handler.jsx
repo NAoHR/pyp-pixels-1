@@ -1,6 +1,6 @@
 import style from "../../styles/components/other/Error_Handler.module.css";
 
-const Error_Handler = ({title,message}) => {
+const Error_Handler = ({ title, message}) => {
     return(
         <div className={style.error_side}>
             <img src={"/error.svg"} alt="" className={style.errorimage} />
