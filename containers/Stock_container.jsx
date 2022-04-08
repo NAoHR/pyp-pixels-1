@@ -6,10 +6,10 @@ import Core_wrapper from "../components/other/Core_wrapper";
 import stockJson from "../utils/stock_data.json"
 import Error_Handler from "../components/other/Error_Handler";
 
-const Stock_card_looper = ({data,title,message}) => {
-    if(data.length > 0){
-        return data.map((val,index)=>{
-            return <Stock_card stock_code={val.stock_code} stock_co={val.stock_co} stock_price={val.stock_price} stock_dp={val.stock_dp} stock_pr={val.stock_pr} cuan={val.cuan} key={index} />
+const Stock_card_looper = ({ data, title, message}) => {
+    if(data.length > 0) {
+        return data.map((val, i)=>{
+            return <Stock_card stock_code={val.stock_code} stock_co={val.stock_co} stock_price={val.stock_price} stock_dp={val.stock_dp} stock_pr={val.stock_pr} cuan={val.cuan} key={i} />
         })
     }
     return <Error_Handler title={title} message={message}/>
@@ -73,7 +73,7 @@ const Stock_container = () => {
                         </div>
                     </div>
                     <div className={style.me_stock_bottom_side}>
-                        <Stock_card_looper data={stockJson["trending"]} title={"no data"} message={"no current trending stock"} />
+                        <Stock_card_looper data={stockJson["trending"]} title={"No Data"} message={"No current trending stock"} />
                     </div>
                 </div>
             </Core_wrapper>

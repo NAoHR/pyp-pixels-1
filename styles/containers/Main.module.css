@@ -35,7 +35,6 @@
 
 .news{
     width: 100%; 
-    /* background: red; */
     padding: 30px 20px 70px 20px;
 }
 .news_title_side{
@@ -43,7 +42,7 @@
 }
 
 .news_title{
-    font-family: var(--poppins);
+    font-weight: 500;
     font-size: 1.5rem;
     margin: 10px 0 20px 0;
     color: var(--black);
