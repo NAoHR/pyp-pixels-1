@@ -21,8 +21,7 @@ const User_container = () => {
                         </h2>
                     </div>
                     <div className={style.profile_main}>
-                        {/* <img src="/userPhoto.jpg" alt="" className={style.profilepict} /> */}
-                        <img src="https://i.iheart.com/v3/re/new_assets/6202d09d00832b8254133266?ops=gravity(%22north%22),fit(740,416),quality(65)" alt="" className={style.profilepict} />
+                        <img src="https://cdn1-production-images-kly.akamaized.net/1_edo169zIfrIqXQSw_N-GCf3ys=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/846228/original/051442600_1428484571-Shrek__1_.jpg" alt="" className={style.profilepict} />
                         <h3 className={`${style.user_title}`}>
                             Rudolf Armagedon
                         </h3>
