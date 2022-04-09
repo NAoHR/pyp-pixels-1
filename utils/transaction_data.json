@@ -3,18 +3,18 @@
         "date" : "Wednesday, 20 August 2002",
         "data" : [
             {
-                "title" : "Belanja",
-                "value" : 10000,
-                "cuan" : true
+                "title" : "Foya-foya",
+                "value" : 187000,
+                "cuan" : false
             },
             {
-                "title" : "makan",
-                "value" : 10000,
-                "cuan" : true
+                "title" : "Pecel Ayam",
+                "value" : 15000,
+                "cuan" : false
             },
             {
                 "title" : "Investasi",
-                "value" : 10000,
+                "value" : 128500,
                 "cuan" : true
             }
         ]
@@ -23,9 +23,9 @@
         "date" : "Wednesday, 20 August 2002",
         "data" : [
             {
-                "title" : "belanja",
-                "value" : 10000,
-                "cuan" : true
+                "title" : "Belanja",
+                "value" : 293000,
+                "cuan" : false
             }
         ]
     }

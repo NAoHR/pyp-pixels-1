@@ -21,10 +21,9 @@ const User_container = () => {
                         </h2>
                     </div>
                     <div className={style.profile_main}>
-                        <div className={style.profile_image}>
-                            <img src="/userPhoto.jpg" alt="" className={style.profilepict} />
-                        </div>
-                        <h3 className={`${style.user_title} poppins`}>
+                        {/* <img src="/userPhoto.jpg" alt="" className={style.profilepict} /> */}
+                        <img src="https://i.iheart.com/v3/re/new_assets/6202d09d00832b8254133266?ops=gravity(%22north%22),fit(740,416),quality(65)" alt="" className={style.profilepict} />
+                        <h3 className={`${style.user_title}`}>
                             Rudolf Armagedon
                         </h3>
                     </div>
