@@ -1,5 +1,5 @@
 import style from "../../styles/components/main/Stats_card.module.css";
-import {FaMoneyBillWave} from "react-icons/fa"
+import {parse_money} from "../../utils/external_tools"
 
 const Stats_card = ({ title, money, detail, income }) => {
     return (
@@ -10,12 +10,12 @@ const Stats_card = ({ title, money, detail, income }) => {
                     {title}
                 </h1>
                 <h2 className={`${style.stats_card_money} ${style.up_index}`}>
-                    Rp. {String(money).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
+                    {parse_money(money)}
                 </h2>
                 <h2 className={`${style.stats_card_detail} ${style.up_index}`} style={{
                     color : income ? "var(--green)" : "var(--red)"
                 }}>
-                    {income ? "+" : "-"} Rp. {String(detail).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
+                    {income ? "+" : "-"} {parse_money(detail)}
                 </h2>
             </div>
         </span>

@@ -1,0 +1,36 @@
+/* RECENT */
+.recent_transaction{
+    width: 100%;
+}
+.recent_content{
+    width: 98%;
+    margin: 10px auto;
+    padding: 5px;
+    /* background-color: green; */
+}
+.recent_card{
+    width: 100%;
+    height: 80px;
+    background-color: var(--white);
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.rt_date{
+    font-weight: 300;
+    color: var(--black);
+    margin-bottom: 10px;
+    font-size: .9em;
+}
+.rc_perks{
+    color: var(--black);
+    font-size: 1.15em;
+    font-weight: 500;
+}
+/* RECENT */

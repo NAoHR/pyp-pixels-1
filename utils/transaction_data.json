@@ -1,0 +1,32 @@
+[
+    {
+        "date" : "Wednesday, 20 August 2002",
+        "data" : [
+            {
+                "title" : "Belanja",
+                "value" : 10000,
+                "cuan" : true
+            },
+            {
+                "title" : "makan",
+                "value" : 10000,
+                "cuan" : true
+            },
+            {
+                "title" : "Investasi",
+                "value" : 10000,
+                "cuan" : true
+            }
+        ]
+    },
+    {
+        "date" : "Wednesday, 20 August 2002",
+        "data" : [
+            {
+                "title" : "belanja",
+                "value" : 10000,
+                "cuan" : true
+            }
+        ]
+    }
+]

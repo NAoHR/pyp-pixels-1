@@ -1,0 +1,124 @@
+.profile_top{
+    width: 100%;
+    height: 300px;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.profile_top_perks{
+    width: 100%;
+    /* background-color: green; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_perks{
+    color: var(--dark-white);
+    font-size: 2em;
+}
+.profile_main{
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_image{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 5px solid var(--white);
+    background-color: var(--black);
+    overflow: hidden;
+}
+.profilepict{
+    width: 100%;
+    height: 100%;
+}
+.user_title{
+    color: white;
+    font-size: 1.4em;
+}
+
+
+.profile_bottom{
+    width: 100%;
+    position: relative;
+}
+
+.decoration{
+    width: 100%;
+    height: 50px;
+    background-color: var(--black);
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+}
+.decoration_filler{
+    width: 100%;
+    height: 105%;
+    background-color: var(--dark-white);
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    position: relative;
+}
+
+.bottom_main_content{
+    width: 100%;
+    padding: 50px 10px 8px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.recent_text{
+    color: var(--black);
+    font-size: 1.3em;
+}
+.recent_transaction{
+    width: 100%;
+    margin-top: 5px;
+}
+.user_detail_bar{
+    width: 98%;
+    background-color: var(--violet);
+    margin: 0px auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.db_content{
+    padding: 5px;
+    height: 100%;
+}
+.db_perks{
+    color: var(--white);
+    text-align: center;
+}
+.db_title{
+    font-size: 0.8em;
+    padding-bottom: 5px;
+}
+.db_detail{
+    font-size: 1.1em;
+}
+
+/* budget */
+.budgeting{
+    width: 98%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: rebeccapurple; */
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

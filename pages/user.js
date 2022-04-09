@@ -1,10 +1,8 @@
-import Navbar from "../components/other/Navbar";
+import User_container from "../containers/User_container";
+import IfMax from "../utils/IfMax";
 const User = () => {
     return (
-        <>
-            <p>user page</p>
-            <Navbar />
-        </>
+        <IfMax Component={User_container}/>
     )
 }
 

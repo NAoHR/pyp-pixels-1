@@ -5,6 +5,7 @@
     bottom: 0px;
     background: var(--dark-white);
     border-top: 2px solid #cfcece;
+    z-index: 9;
 }
 .icon_wrapper{
     width: 90%;
