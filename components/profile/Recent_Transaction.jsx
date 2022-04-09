@@ -41,9 +41,9 @@ const RT_Card = ({title, value, cuan}) => {
 
 const Recent_Transaction = ({data}) => {
     if(data.length > 0){
-        return data.map((val)=>{
+        return data.map((val,i)=>{
             return (
-                <div className={style.recent_content}>
+                <div className={style.recent_content} key={i}>
                     <h4 className={`${style.rt_date} poppins`}>
                         {val.date}
                     </h4>
