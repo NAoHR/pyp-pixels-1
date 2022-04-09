@@ -1,16 +1,18 @@
 .budgeting_content{
-    width: 49%;
-    height: 100%;
+    /* width: 59%; */
+    /* height: 100%; */
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    flex: 1;
 }
 .budgeting_perks{
     color: var(--white);
 }
 .budgeting_title{
-    font-size: .9em;
+    font-size: 1rem;
+    font-weight: 500;
 }
 .budgeting_value{
-    font-weight: 500;
-    font-size: 1em;
+    font-weight: 300;
+    font-size: 1rem;
 }
