@@ -4,7 +4,7 @@ const Max_Size = () => {
             <h1 className="max_text">
                 Because this is a mobile view<br/>
                 We Currently Only Support <br/>
-                500 x 790 or less<br/>
+                480 x 830 or less<br/>
                 Screen Size
             </h1>
         </div>
